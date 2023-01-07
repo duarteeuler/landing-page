@@ -1,0 +1,145 @@
+body{
+    margin: 0;
+}
+.header{
+    display: flex;
+    height: 80px;
+    background-color: rgb(243, 225, 145);
+}
+.logo img{
+    width: 80px;
+    height: 80px;
+    margin-left: 200px;
+    border-radius: 40px;
+}
+.header-link{
+    display: flex;
+    margin-left: auto;
+    margin-right: 200px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    font-size: 18px;
+}
+.main-1{
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 248, 211);
+    gap:150px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.main-1-text{
+    width: 30%;    
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 24px;
+    padding-top: 100px;
+}
+.main-1-text h1{
+    font-size: 48px;
+}
+.main-1-image{
+    margin-right: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-1 img{
+    width: 90%;
+    height: 90%;
+    border-style: solid;
+    border-color: rgb(255, 225, 0);
+}
+.main-2{
+    text-align: center;
+}
+.container-images-description{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.container-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(208, 175, 66);
+}
+.main-3{
+    background-color: rgb(255, 248, 211);
+    height: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 200px;
+    padding-left: 200px;
+}
+.footer{
+    background-color: rgb(255, 248, 211);
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-3-quote-text p{
+    font-size: 36px;
+    font-style: italic;
+}
+.main-3-quote-author p{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: end;
+}
+.main-4{
+    height: 220px;
+    display: flex;
+    gap: 300px;
+    justify-content: flex-start;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: rgb(138, 98, 38);
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 15px;
+}
+.main-4-text{
+    font-size: 24px;
+    font-style: italic;
+    font-weight:lighter;
+    text-align: justify;
+    align-self: center;
+    line-height: 35px;
+    padding-left: 200px;
+    color: white;
+}
+.main-4-text-title{
+    line-height: 10px;
+}
+.main-4-sign{
+    display: flex;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    padding-right: 200px;
+}
+.sign-up{
+    background-color: rgb(243, 225, 145);
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.sign-up:hover{
+    background-color: rgb(249, 241, 207);
+}
